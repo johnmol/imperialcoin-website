@@ -24,14 +24,14 @@
 // }
 
 import React, {Component} from "react";
-import Pdf from './../../IPCFinanceDeck.pdf';
+// import Pdf from '../';
 
 class Download extends Component {
 
   render() {
     return (
       <div className="App">
-        <a href={Pdf} target="_blank" rel="noopener noreferrer">PDF</a>
+        <a href={process.env.PUBLIC_URL + '/IPCFinanceDeck.pdf'} target="_blank" rel="noopener noreferrer">PDF</a>
       </div>
     )
   }
