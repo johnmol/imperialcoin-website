@@ -25,10 +25,10 @@ function HeroSection() {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg autoPlay loop muted playsinline disablePictureInPicture>
-          <source src={Video} type="video/mp4"/>
-          <source src={Video2} type="video/ogv"/>
-          <source src={Video3} type="video/webm"/>
+        <VideoBg autoPlay loop muted playsInline disablePictureInPicture>
+          <source src="${require('./../../assets/videos/video2.mp4')}" type="video/mp4"/>
+          <source src="${require('./../../assets/videos/video2.ogv')}" type="video/ogv"/>
+          <source src="${require('./../../assets/videos/video2.webm')}" type="video/webm"/>
         </VideoBg>
       </HeroBg>
       <HeroContent>
