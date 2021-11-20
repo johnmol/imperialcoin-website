@@ -1,7 +1,7 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
 import {
-  FaDiscord,
+  FaGithub,
   FaInstagram,
   FaTwitter,
   FaTelegramPlane,
@@ -35,8 +35,20 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>More</FooterLinkTitle>
-              <FooterLink to="/">Learn More</FooterLink>
-              <FooterLink to="/">Support</FooterLink>
+              <FooterLink
+                href="//t.me/imperialcoinOfficial"
+                target="_blank"
+                aria-label="Telegram"
+              >
+                Learn More
+              </FooterLink>
+              <FooterLink
+                href="//t.me/imperialcoinOfficial"
+                target="_blank"
+                aria-label="Telegram"
+              >
+                Support
+              </FooterLink>
               <FooterLink to="/">Careers</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
@@ -115,9 +127,9 @@ const Footer = () => {
               <SocialIconLink
                 href="//discord.gg/zBvfDEwHAB"
                 target="_blank"
-                aria-label="Discord"
+                aria-label="Github"
               >
-                <FaDiscord />
+                <FaGithub />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

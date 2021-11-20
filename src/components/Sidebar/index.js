@@ -6,6 +6,7 @@ import {
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
+  SidebarLinkTwo,
   SideBtnWrap,
   SidebarRoute,
 } from "./SidebarElements";
@@ -21,18 +22,29 @@ function Sidebar({ isOpen, toggle }) {
           <SidebarLink to="about" onClick={toggle}>
             About
           </SidebarLink>
-          <SidebarLink to="discover" onClick={toggle}>
-            Discover
+          <SidebarLink to="ecosystem" onClick={toggle}>
+            Ecosystem
           </SidebarLink>
-          <SidebarLink to="services" onClick={toggle}>
-            Services
+          <SidebarLink to="community" onClick={toggle}>
+            Community
           </SidebarLink>
-          <SidebarLink to="signup" onClick={toggle}>
-            Sign Up
-          </SidebarLink>
+          <SidebarLinkTwo
+            href="//www.medium.com/@imperialcoin"
+            target="_blank"
+            aria-label="Medium"
+            // onClick={toggle}
+          >
+            Blog
+          </SidebarLinkTwo>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/signin">Sign In</SidebarRoute>
+          <SidebarRoute
+            href="//t.me/imperialcoinOfficial"
+            target="_blank"
+            aria-label="Telegram"
+          >
+            Telegram
+          </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

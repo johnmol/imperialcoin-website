@@ -85,9 +85,9 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  href="//www.twitter.com/ImperialCoin_"
+                  href="//www.medium.com/@imperialcoin"
                   target="_blank"
-                  aria-label="Twitter"
+                  aria-label="Medium"
                   // to="signup"
                   // smooth={true}
                   // duration={500}
@@ -99,7 +99,7 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
             </NavMenu>
-            <NavBtn>
+            {/* <NavBtn>
               <Button
                 href="//t.me/imperialcoinOfficial"
                 target="_blank"
@@ -107,7 +107,7 @@ const Navbar = ({ toggle }) => {
               >
                 Airdrop
               </Button>
-            </NavBtn>
+            </NavBtn> */}
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>
