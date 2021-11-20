@@ -23,7 +23,7 @@ function HeroSection() {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <VideoBg autoPlay loop muted playsinline disablePictureInPicture src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
         <HeroH1>A smarter way to create value</HeroH1>
