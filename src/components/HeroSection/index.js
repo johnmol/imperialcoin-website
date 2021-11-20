@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Video from "../../assets/videos/video2.mp4";
+import Video2 from "../../assets/videos/video2.ogv";
+import Video3 from "../../assets/videos/video2.webm";
 import {
   HeroContainer,
   HeroBg,
@@ -23,7 +25,11 @@ function HeroSection() {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg autoPlay loop muted playsinline disablePictureInPicture src={Video} type="video/mp4" />
+        <VideoBg autoPlay loop muted playsinline disablePictureInPicture>
+          <source src={Video} type="video/mp4"/>
+          <source src={Video2} type="video/ogv"/>
+          <source src={Video3} type="video/webm"/>
+        </VideoBg>
       </HeroBg>
       <HeroContent>
         <HeroH1>A smarter way to create value</HeroH1>
