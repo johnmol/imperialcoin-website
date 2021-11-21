@@ -4,6 +4,7 @@ import {
   FaGithub,
   FaInstagram,
   FaTwitter,
+  FaFacebook,
   FaTelegramPlane,
   FaMediumM,
 } from "react-icons/fa";
@@ -36,6 +37,16 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>More</FooterLinkTitle>
               <FooterLink
+                to="/"
+              >
+                Our Team
+              </FooterLink>
+              <FooterLink
+                to="/"
+              >
+                Road Map
+              </FooterLink>
+              <FooterLink
                 href="//t.me/imperialcoinOfficial"
                 target="_blank"
                 aria-label="Telegram"
@@ -49,12 +60,19 @@ const Footer = () => {
               >
                 Support
               </FooterLink>
+              <FooterLink
+                href="//explorer.solana.com/address/Fh3As4AU6bSsj5HcFHFD1LigeXWdFCJicnaQ64h7RFn5"
+                target="_blank"
+                aria-label="explorer"
+              >
+                Token Explorer
+              </FooterLink>
               <FooterLink to="/">Careers</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Social Media</FooterLinkTitle>
+              <FooterLinkTitle>Social</FooterLinkTitle>
               <FooterLink
                 href="//t.me/imperialcoinOfficial"
                 target="_blank"
@@ -77,11 +95,11 @@ const Footer = () => {
                 Twitter
               </FooterLink>
               <FooterLink
-                href="//discord.gg/zBvfDEwHAB"
+                href="//www.facebook.com/officialipc"
                 target="_blank"
-                aria-label="Discord"
+                aria-label="Facebook"
               >
-                Discord
+                Facebook
               </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
@@ -125,11 +143,11 @@ const Footer = () => {
                 <FaTwitter />
               </SocialIconLink>
               <SocialIconLink
-                href="//discord.gg/zBvfDEwHAB"
+                href="//www.facebook.com/officialipc"
                 target="_blank"
-                aria-label="Github"
+                aria-label="Facebook"
               >
-                <FaGithub />
+                <FaFacebook />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

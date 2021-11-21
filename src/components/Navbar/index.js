@@ -41,7 +41,7 @@ const Navbar = ({ toggle }) => {
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
               Imperial Coin
-              {/* <img src={require('../../assets/Logo2.png').default} alt="logo"/> */}
+              {/* <img src={require('../../assets/logofull.png').default} alt="logo"/> */}
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />

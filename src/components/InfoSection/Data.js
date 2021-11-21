@@ -26,7 +26,7 @@ export const homeObjTwo = {
   headline: "IPC.Finance",
   description:
     "IPC.Finance is Africa's first IDO launchpad and incubator on Solana. It is designed to raise DeFi in Africa and offer different fundraising methods to blockchain projects.",
-  buttonLabel: "More",
+  buttonLabel: "Coming Soon",
   button: "//t.me/imperialcoinOfficial",
   imgStart: true,
   img: require("../../assets/IPC-Finance.png").default,
@@ -44,8 +44,8 @@ export const homeObjThree = {
   topLine: "The Imperial Ecosystem",
   headline: "Skillfy",
   description:
-    "A hub for developers. Skillfy is the best place to learn how to code.",
-  buttonLabel: "More",
+    "A hub for developers. Skillfy is the best place to learn how to code anything from web applications to decentralized applications. It is also the place where founders and teams come to recruit skilled developers for their projects.",
+  buttonLabel: "Coming Soon",
   imgStart: false,
   img: require("../../assets/logoo.png").default,
   alt: "logo",
@@ -54,20 +54,3 @@ export const homeObjThree = {
   darkText: true,
 };
 
-export const homeObjFour = {
-  id: "community",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: "Community",
-  headline: "Join our community",
-  description:
-    "Be part of our growing community. Our community will help developers or aspiring developers to learn more about blockchain development",
-  buttonLabel: "Join",
-  imgStart: false,
-  img: require("../../assets/logo.png").default,
-  alt: "logo",
-  dark: false,
-  primary: false,
-  darkText: true,
-};

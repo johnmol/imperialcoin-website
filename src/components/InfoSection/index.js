@@ -37,6 +37,11 @@ const InfoSection = ({
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
+          <Column2>
+              <ImgWrap>
+                <Img src={img} alt={alt} />
+              </ImgWrap>
+            </Column2>
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
@@ -61,11 +66,7 @@ const InfoSection = ({
                 </BtnWrap>
               </TextWrapper>
             </Column1>
-            <Column2>
-              <ImgWrap>
-                <Img src={img} alt={alt} />
-              </ImgWrap>
-            </Column2>
+            
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
